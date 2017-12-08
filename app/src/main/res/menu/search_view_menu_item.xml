@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search" />
+
+    <!--<ToggleButton
+        android:id="@+id/toggle_map_list"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/selector"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""/>-->
+
+    <item
+        android:id="@+id/toggle_map_list"
+        app:showAsAction="ifRoom"
+        android:title="Toggle"/>
+</menu>
